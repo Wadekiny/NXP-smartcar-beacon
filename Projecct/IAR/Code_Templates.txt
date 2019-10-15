@@ -1,0 +1,253 @@
+################################################################################
+##
+## This is an example file for defining your own code templates.
+##
+## The syntax for defining a code ################################################################################
+##
+## This is an example file for defining your own code templates.
+##
+## The syntax for defining a code template is:
+## #TEMPLATE <template name>,<field>[=default value], <field>...
+##
+## The template name, the fields and their default values should be defined 
+## within quotes if they contain non-alphanumeric characters.
+## Use "&" in front of a letter in the template name to make the letter become 
+## a shortcut, which means that you can use ALT+<letter> to select the template 
+## or jump to the field in the dialog box.
+## Use ">" in the template to organize the template names in submenus.
+##
+################################################################################
+#TEMPLATE "&Notes>&HEAD",&Name="$PROJ_FNAME$","&File Name"="$FILE_FNAME$",&Description,&Version,&Created="by $USER_NAME$",&date="$DATE$",&Path="$PROJ_DIR$",
+/**
+  ******************************************************************************
+  * Copyright (c) 2017 $USER_NAME$.
+  * All right reserved
+  *
+  * 项目名称：%1
+  * 文件名称：%2
+  * 当前版本：V%4  $CONFIG_NAME$
+  * 作    者：%5
+  * 完成日期：%6
+  * 项目路径：%7
+  ******************************************************************************
+  * 摘    要：%3
+  *
+  *
+  *
+  * 历史信息：%c
+  ******************************************************************************
+  */
+#TEMPLATE "&Notes>&INC","&File Name"
+/* Define to prevent recursive inclusion -------------------------------------*/
+#ifndef __%1_H
+#define __%1_H
+/* Includes ------------------------------------------------------------------*/
+/* Exported types ------------------------------------------------------------*/
+/* Exported constants --------------------------------------------------------*/
+/* Exported macros -----------------------------------------------------------*/
+/* Private macros ------------------------------------------------------------*/
+/* Exported functions ------------------------------------------------------- */
+%c
+#endif /* __%1_H */
+/************************ (C) COPYRIGHT $USER_NAME$ *************END OF FILE****/
+#TEMPLATE "&Notes>&SRC"
+/* Includes ------------------------------------------------------------------*/
+/* Private typedef -----------------------------------------------------------*/
+/* Private define ------------------------------------------------------------*/
+/* Private macro -------------------------------------------------------------*/
+/* Private variables ---------------------------------------------------------*/
+/* Private function prototypes -----------------------------------------------*/
+/* Private functions ---------------------------------------------------------*/
+/* Public functions ----------------------------------------------------------*/
+%c
+/************************ (C) COPYRIGHT $USER_NAME$ *************END OF FILE****/
+#TEMPLATE "&Statement>&If"
+if( %c )
+{
+
+}
+#TEMPLATE "&Statement>&Else"
+else if( %c )
+{
+}
+#TEMPLATE "&Statement>&While"
+while( %c )
+{
+
+}
+#TEMPLATE "&Statement>&Do-while"
+do
+{
+
+}while( %c );
+#TEMPLATE &Statement>&For,"&End Value"=10,&Variable=i
+for(int %2 = 0; %2 < %1; %2++)
+{
+  %c
+}
+#TEMPLATE "&Statement>&Switch"
+switch( %c )
+{
+    case 0:
+        break;
+    default:
+        break;
+}
+#TEMPLATE "&Statement>S&truct","&Struct Name"="name","&Member Type","&Member Name"
+Struct %1
+{
+    %2 %3;
+    %c
+};
+#TEMPLATE "&Statement>E&num","&Enum Name"="name","&Member Name"
+Enum %1{%2,%c};
+#TEMPLATE &Function>&Define,"&Function name"="Function1","&Input Param","&Input Param introduce","&Return Paramtype"="void","&Input Param introduce",&Description=--,&Created="by $USER_NAME$ $DATE$"
+/**
+  * 摘    要: %6
+  * 输入参数: %2  %3
+  * 返回参数: %4  %5 
+  */ 
+%4 %1(%2) 
+{ 
+    %c 
+}
+#TEMPLATE &Function>D&eclare,"&Function name"="Function1","&Input Param","&Input Param introduce","&Return Paramtype"="void","&Input Param introduce",&Description=--,&Created="by $USER_NAME$ $DATE$"
+/**
+  * 摘    要: %6
+  * 输入参数: %2  %3
+  * 返回参数: %4  %5 
+  */ 
+%4 %1(%2);
+#TEMPLATE &Function>&Main,&Description=--,&Created="$DATE$, by $USER_NAME$"
+/* Includes ------------------------------------------------------------------*/
+/* Private typedef -----------------------------------------------------------*/
+/* Private define ------------------------------------------------------------*/
+/* Private function prototypes -----------------------------------------------*/
+/* Private functions ---------------------------------------------------------*/
+/**
+  * 摘    要: %1
+  * 输入参数: None
+  * 返回参数: None
+  */
+void main(void)
+{
+  /* Initialize configuration ------------------------------------------*/
+    %c
+  /* Infinite loop -----------------------------------------------------*/
+    while(1)
+    {
+
+    }
+}
+/************************ (C) COPYRIGHT $USER_NAME$ *************END OF FILE****/
+ is:
+## #TEMPLATE <template name>,<field>[=default value], <field>...
+##
+## The template name, the fields and their default values should be defined 
+## within quotes if they contain non-alphanumeric characters.
+## Use "&" in front of a letter in the template name to make the letter become 
+## a shortcut, which means that you can use ALT+<letter> to select the template 
+## or jump to the field in the dialog box.
+## Use ">" in the template to organize the template names in submenus.
+##
+################################################################################
+#TEMPLATE "&Notes>&HEAD",&Name="$PROJ_FNAME$","&File Name"="$FILE_FNAME$",&Description,&Version,&Created="by $USER_NAME$",&date="$DATE$",&Path="$PROJ_DIR$",
+/*******************************************************************************
+* Copyright (c) 2017 $USER_NAME$.
+* All right reserved
+*
+* 项目名称：%1
+*
+* 文件名称：%2
+* 摘    要：%3
+*
+*
+* 当前版本：V%4 $CONFIG_NAME$
+* 作    者：%5
+* 完成日期：%6
+* 项目路径：%7
+*
+* 历史信息：%c
+*******************************************************************************/
+#TEMPLATE "&Statement>&If"
+if( %c )
+{
+
+}
+#TEMPLATE "&Statement>&Else"
+else if( %c )
+{
+}
+#TEMPLATE "&Statement>&While"
+while( %c )
+{
+
+}
+#TEMPLATE "&Statement>&Do-while"
+do
+{
+
+}while( %c );
+#TEMPLATE &Statement>&For,"&End Value"=10,&Variable=i
+for(int %2 = 0; %2 < %1; %2++)
+{
+  %c
+}
+#TEMPLATE "&Statement>&Switch"
+switch( %c )
+{
+    case 0:
+        break;
+    default:
+        break;
+}
+#TEMPLATE "&Statement>S&truct","&Struct Name"="name","&Member Type","&Member Name"
+Struct %1
+{
+    %2 %3;
+    %c
+};
+#TEMPLATE "&Statement>E&num","&Enum Name"="name","&Member Name"
+Enum %1{%2,%c};
+#TEMPLATE "&Statement>ifn&def","&File Name"
+#ifndef __%1_H
+#define __%1_H
+%c
+#endif
+#TEMPLATE &Function>&Define,"&Function name"="Function1","&Input Param","&Return Paramtype"="void" ,&Description=--,&Created="by $USER_NAME$",Date="$DATE$"
+/**********************************************函数定义***************************************************** 
+* 函数名称: %3 %1(%2) 
+* 输入参数: %2 
+* 返回参数: %3  
+* 功    能: %4  
+* 作    者: %5
+* 日    期: %6
+************************************************************************************************************/ 
+%3 %1(%2) 
+{ 
+%c 
+}
+#TEMPLATE &Function>D&eclare,"&Function name"="Function1","&Input Param","&Return Paramtype"="void" ,&Description=--,&Created="by $USER_NAME$",Date="$DATE$"
+/**********************************************函数定义***************************************************** 
+* 函数名称: %3 %1(%2) 
+* 输入参数: %2 
+* 返回参数: %3  
+* 功    能: %4  
+* 作    者: %5
+* 日    期: %6
+************************************************************************************************************/ 
+%3 %1(%2);
+#TEMPLATE &Function>&Main,&name=Main,&Description=--,&Created="$DATE$, by $USER_NAME$"
+/***********************************************************************************************************
+* 函数名称: main()
+* 功    能: %2
+*
+* 作    者: %3
+************************************************************************************************************/
+void main(void)
+{
+    %c
+    while(1)
+    {
+    }
+}

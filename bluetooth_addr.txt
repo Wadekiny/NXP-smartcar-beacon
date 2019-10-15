@@ -1,0 +1,5 @@
+slave £º+ADDR:18:e4:34ce08
+MASTER:       98d3:61:fd51c3
+
+SLAVE 18:e4:34ce08
+MASTER +ADDR:18:e4:34e469

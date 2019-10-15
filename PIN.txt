@@ -1,0 +1,57 @@
+摄像头1-------UART4
+pclk    D14
+VSYNC   D15
+RX      E24
+TX      E25
+DATA    E0-E7
+
+摄像头2-------UART0
+pclk    A13
+VSYNC   A29
+RX      A14
+TX      A15
+DATA    B0-B7   
+
+蓝牙----------UART3
+TX      C16
+RX      C17
+
+通信----------UART1
+TX      C3        
+RX      C4       
+
+按键
+up      A12
+DOWN    A10
+LEFT    A11
+RIGHT   B11
+PUSH    B10
+
+OLED
+OLED_SCLK    C10
+OLED_SDIN    C9
+OLED_RST     C8
+OLED_DC      C7  
+OLED_CS      C6
+
+
+编码器2
+C12
+C11
+编码器1
+C13
+C14
+编码器3
+A8
+A9
+编码器4
+B18
+B19
+
+电机
+E10 E9
+D1 D0
+E12 E11
+D3 D2
+
+ 

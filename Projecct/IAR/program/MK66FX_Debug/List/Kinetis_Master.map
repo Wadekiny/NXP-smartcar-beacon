@@ -1,0 +1,1130 @@
+﻿###############################################################################
+#
+# IAR ELF Linker V8.30.1.114/W32 for ARM                  25/Aug/2019  06:10:35
+# Copyright 2007-2018 IAR Systems AB.
+#
+#    Output file  =  
+#        C:\Users\Mr.Wang\Desktop\bcn_MAS强减速\Projecct\IAR\program\MK66FX_Debug\Exe\Kinetis_Master.out
+#    Map file     =  
+#        C:\Users\Mr.Wang\Desktop\bcn_MAS强减速\Projecct\IAR\program\MK66FX_Debug\List\Kinetis_Master.map
+#    Command line =  
+#        -f C:\Users\MRA8AA~1.WAN\AppData\Local\Temp\EW8C79.tmp
+#        (C:\Users\Mr.Wang\Desktop\bcn_MAS强减速\Projecct\IAR\program\MK66FX_Debug\Obj\algo.o
+#        C:\Users\Mr.Wang\Desktop\bcn_MAS强减速\Projecct\IAR\program\MK66FX_Debug\Obj\barrier.o
+#        C:\Users\Mr.Wang\Desktop\bcn_MAS强减速\Projecct\IAR\program\MK66FX_Debug\Obj\beep.o
+#        C:\Users\Mr.Wang\Desktop\bcn_MAS强减速\Projecct\IAR\program\MK66FX_Debug\Obj\bluetooth.o
+#        C:\Users\Mr.Wang\Desktop\bcn_MAS强减速\Projecct\IAR\program\MK66FX_Debug\Obj\common.o
+#        C:\Users\Mr.Wang\Desktop\bcn_MAS强减速\Projecct\IAR\program\MK66FX_Debug\Obj\control.o
+#        C:\Users\Mr.Wang\Desktop\bcn_MAS强减速\Projecct\IAR\program\MK66FX_Debug\Obj\crash.o
+#        C:\Users\Mr.Wang\Desktop\bcn_MAS强减速\Projecct\IAR\program\MK66FX_Debug\Obj\diskio.o
+#        C:\Users\Mr.Wang\Desktop\bcn_MAS强减速\Projecct\IAR\program\MK66FX_Debug\Obj\encode.o
+#        C:\Users\Mr.Wang\Desktop\bcn_MAS强减速\Projecct\IAR\program\MK66FX_Debug\Obj\ff.o
+#        C:\Users\Mr.Wang\Desktop\bcn_MAS强减速\Projecct\IAR\program\MK66FX_Debug\Obj\flash.o
+#        C:\Users\Mr.Wang\Desktop\bcn_MAS强减速\Projecct\IAR\program\MK66FX_Debug\Obj\fuzzy.o
+#        C:\Users\Mr.Wang\Desktop\bcn_MAS强减速\Projecct\IAR\program\MK66FX_Debug\Obj\interact.o
+#        C:\Users\Mr.Wang\Desktop\bcn_MAS强减速\Projecct\IAR\program\MK66FX_Debug\Obj\inv_mpu.o
+#        C:\Users\Mr.Wang\Desktop\bcn_MAS强减速\Projecct\IAR\program\MK66FX_Debug\Obj\inv_mpu_dmp_motion_driver.o
+#        C:\Users\Mr.Wang\Desktop\bcn_MAS强减速\Projecct\IAR\program\MK66FX_Debug\Obj\isr.o
+#        C:\Users\Mr.Wang\Desktop\bcn_MAS强减速\Projecct\IAR\program\MK66FX_Debug\Obj\K66_tpm.o
+#        C:\Users\Mr.Wang\Desktop\bcn_MAS强减速\Projecct\IAR\program\MK66FX_Debug\Obj\key.o
+#        C:\Users\Mr.Wang\Desktop\bcn_MAS强减速\Projecct\IAR\program\MK66FX_Debug\Obj\main.o
+#        C:\Users\Mr.Wang\Desktop\bcn_MAS强减速\Projecct\IAR\program\MK66FX_Debug\Obj\misc.o
+#        C:\Users\Mr.Wang\Desktop\bcn_MAS强减速\Projecct\IAR\program\MK66FX_Debug\Obj\MK66_adc.o
+#        C:\Users\Mr.Wang\Desktop\bcn_MAS强减速\Projecct\IAR\program\MK66FX_Debug\Obj\MK66_cmt.o
+#        C:\Users\Mr.Wang\Desktop\bcn_MAS强减速\Projecct\IAR\program\MK66FX_Debug\Obj\MK66_dac.o
+#        C:\Users\Mr.Wang\Desktop\bcn_MAS强减速\Projecct\IAR\program\MK66FX_Debug\Obj\MK66_dma.o
+#        C:\Users\Mr.Wang\Desktop\bcn_MAS强减速\Projecct\IAR\program\MK66FX_Debug\Obj\MK66_flash.o
+#        C:\Users\Mr.Wang\Desktop\bcn_MAS强减速\Projecct\IAR\program\MK66FX_Debug\Obj\MK66_ftm.o
+#        C:\Users\Mr.Wang\Desktop\bcn_MAS强减速\Projecct\IAR\program\MK66FX_Debug\Obj\MK66_gpio.o
+#        C:\Users\Mr.Wang\Desktop\bcn_MAS强减速\Projecct\IAR\program\MK66FX_Debug\Obj\MK66_i2c.o
+#        C:\Users\Mr.Wang\Desktop\bcn_MAS强减速\Projecct\IAR\program\MK66FX_Debug\Obj\MK66_lptmr.o
+#        C:\Users\Mr.Wang\Desktop\bcn_MAS强减速\Projecct\IAR\program\MK66FX_Debug\Obj\MK66_pit.o
+#        C:\Users\Mr.Wang\Desktop\bcn_MAS强减速\Projecct\IAR\program\MK66FX_Debug\Obj\MK66_port.o
+#        C:\Users\Mr.Wang\Desktop\bcn_MAS强减速\Projecct\IAR\program\MK66FX_Debug\Obj\MK66_rtc.o
+#        C:\Users\Mr.Wang\Desktop\bcn_MAS强减速\Projecct\IAR\program\MK66FX_Debug\Obj\MK66_sdhc.o
+#        C:\Users\Mr.Wang\Desktop\bcn_MAS强减速\Projecct\IAR\program\MK66FX_Debug\Obj\MK66_spi.o
+#        C:\Users\Mr.Wang\Desktop\bcn_MAS强减速\Projecct\IAR\program\MK66FX_Debug\Obj\MK66_systick.o
+#        C:\Users\Mr.Wang\Desktop\bcn_MAS强减速\Projecct\IAR\program\MK66FX_Debug\Obj\MK66_uart.o
+#        C:\Users\Mr.Wang\Desktop\bcn_MAS强减速\Projecct\IAR\program\MK66FX_Debug\Obj\MK66_wdog.o
+#        C:\Users\Mr.Wang\Desktop\bcn_MAS强减速\Projecct\IAR\program\MK66FX_Debug\Obj\motor.o
+#        C:\Users\Mr.Wang\Desktop\bcn_MAS强减速\Projecct\IAR\program\MK66FX_Debug\Obj\mpu6050.o
+#        C:\Users\Mr.Wang\Desktop\bcn_MAS强减速\Projecct\IAR\program\MK66FX_Debug\Obj\mpuiic.o
+#        C:\Users\Mr.Wang\Desktop\bcn_MAS强减速\Projecct\IAR\program\MK66FX_Debug\Obj\oled.o
+#        C:\Users\Mr.Wang\Desktop\bcn_MAS强减速\Projecct\IAR\program\MK66FX_Debug\Obj\openmv.o
+#        C:\Users\Mr.Wang\Desktop\bcn_MAS强减速\Projecct\IAR\program\MK66FX_Debug\Obj\pan_infrared.o
+#        C:\Users\Mr.Wang\Desktop\bcn_MAS强减速\Projecct\IAR\program\MK66FX_Debug\Obj\PID.o
+#        C:\Users\Mr.Wang\Desktop\bcn_MAS强减速\Projecct\IAR\program\MK66FX_Debug\Obj\SEEKFREE_7725.o
+#        C:\Users\Mr.Wang\Desktop\bcn_MAS强减速\Projecct\IAR\program\MK66FX_Debug\Obj\SEEKFREE_FUN.o
+#        C:\Users\Mr.Wang\Desktop\bcn_MAS强减速\Projecct\IAR\program\MK66FX_Debug\Obj\SEEKFREE_IIC.o
+#        C:\Users\Mr.Wang\Desktop\bcn_MAS强减速\Projecct\IAR\program\MK66FX_Debug\Obj\SEEKFREE_MPU6050.o
+#        C:\Users\Mr.Wang\Desktop\bcn_MAS强减速\Projecct\IAR\program\MK66FX_Debug\Obj\SEEKFREE_NRF24L01.o
+#        C:\Users\Mr.Wang\Desktop\bcn_MAS强减速\Projecct\IAR\program\MK66FX_Debug\Obj\startup_MK66F18.o
+#        C:\Users\Mr.Wang\Desktop\bcn_MAS强减速\Projecct\IAR\program\MK66FX_Debug\Obj\system_MK66.o
+#        C:\Users\Mr.Wang\Desktop\bcn_MAS强减速\Projecct\IAR\program\MK66FX_Debug\Obj\top6050.o
+#        --no_out_extension -o
+#        C:\Users\Mr.Wang\Desktop\bcn_MAS强减速\Projecct\IAR\program\MK66FX_Debug\Exe\Kinetis_Master.out
+#        --map
+#        C:\Users\Mr.Wang\Desktop\bcn_MAS强减速\Projecct\IAR\program\MK66FX_Debug\List\Kinetis_Master.map
+#        --config
+#        C:\Users\Mr.Wang\Desktop\bcn_MAS强减速\Projecct\IAR\program\linker\MK66xX1M_18.icf
+#        --semihosting --entry __iar_program_start --vfe --utf8_text_in
+#        --text_out utf8)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__Heap_Handler  = NoFree
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The no free heap was selected because no calls to memory
+deallocation functions were found in the application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x0 { ro section .intvec };
+"P1":  place in [from 0x400 to 0x40f] { section FlashConfig };
+"P2":  place in [from 0x0 to 0x3ff] |
+                [from 0x410 to 0xf'ffff] |
+                [from 0x1000'0000 to 0x1003'ffff] { ro };
+define block CSTACK with size = 8K, alignment = 8 { };
+define block HEAP with size = 16K, alignment = 8 { };
+"P3":  place in [from 0x1fff'0000 to 0x2002'ffff] {
+          rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+No sections matched the following patterns:
+
+  section .flex_ram  in "P4"
+
+
+  Section            Kind         Address    Size  Object
+  -------            ----         -------    ----  ------
+"A0":                                       0x400
+  .intvec            ro code          0x0   0x400  startup_MK66F18.o [1]
+                                  - 0x400   0x400
+
+"P1":                                        0x10
+  FlashConfig        ro code        0x400    0x10  startup_MK66F18.o [1]
+                                  - 0x410    0x10
+
+"P2":                                      0xca98
+  .text              ro code        0x410  0x2ac4  interact.o [1]
+  .text              ro code       0x2ed4   0x1e4  key.o [1]
+  .text              ro code       0x30b8   0xa0c  oled.o [1]
+  .text              ro code       0x3ac4    0x68  DblToFlt.o [3]
+  .text              ro code       0x3b2c    0x86  ABImemcpy.o [4]
+  .text              ro code       0x3bb2    0x3a  zero_init3.o [4]
+  .text              ro code       0x3bec   0x9a8  flash.o [1]
+  .text              ro code       0x4594    0x48  FltToDbl.o [3]
+  .text              ro code       0x45dc   0x17a  DblAdd.o [3]
+  .text              ro code       0x4756     0x2  startup_MK66F18.o [1]
+  .text              ro code       0x4758   0xa60  PID.o [1]
+  .text              ro code       0x51b8   0x248  MK66_gpio.o [1]
+  .text              ro code       0x5400    0xe4  MK66_port.o [1]
+  .text              ro code       0x54e4    0x68  MK66_systick.o [1]
+  .text              ro code       0x554c   0x14c  MK66_flash.o [1]
+  .text              ro code       0x5698    0xe2  DblSub.o [3]
+  .text              ro code       0x577a     0x2  startup_MK66F18.o [1]
+  .text              ro code       0x577c    0x6a  algo.o [1]
+  .text              ro code       0x57e6     0x2  startup_MK66F18.o [1]
+  .text              ro code       0x57e8   0x7c4  fuzzy.o [1]
+  .text              ro code       0x5fac   0x1a2  DblMul.o [3]
+  .text              ro code       0x614e     0x2  startup_MK66F18.o [1]
+  .text              ro code       0x6150   0x246  DblDiv.o [3]
+  .text              ro code       0x6396     0x2  startup_MK66F18.o [1]
+  .text              ro code       0x6398    0x22  S32ToDbl.o [3]
+  .text              ro code       0x63ba     0x2  startup_MK66F18.o [1]
+  .text              ro code       0x63bc    0x3a  DblToS32.o [3]
+  .text              ro code       0x63f6   0x154  motor.o [1]
+  .text              ro code       0x654a     0x2  startup_MK66F18.o [1]
+  .text              ro code       0x654c   0x510  MK66_ftm.o [1]
+  .text              ro code       0x6a5c  0x1edc  control.o [1]
+  .text              ro code       0x8938    0x2c  beep.o [1]
+  .text              ro code       0x8964   0x488  crash.o [1]
+  .text              ro code       0x8dec   0x344  barrier.o [1]
+  .text              ro code       0x9130   0x15c  MK66_pit.o [1]
+  .rodata            const         0x928c   0xd5c  oled.o [1]
+  .rodata            const         0x9fe8   0x5f0  oled.o [1]
+  .text              ro code       0xa5d8   0x500  openmv.o [1]
+  .text              ro code       0xaad8   0x2a0  MK66_uart.o [1]
+  .text              ro code       0xad78   0x47c  main.o [1]
+  .text              ro code       0xb1f4    0x64  common.o [1]
+  .text              ro code       0xb258   0x1dc  top6050.o [1]
+  .text              ro code       0xb434   0x250  pan_infrared.o [1]
+  .text              ro code       0xb684   0x12e  bluetooth.o [1]
+  .text              ro code       0xb7b2     0x2  startup_MK66F18.o [1]
+  .text              ro code       0xb7b4   0x1d4  encode.o [1]
+  .text              ro code       0xb988   0x286  mpu6050.o [1]
+  .text              ro code       0xbc10    0xd8  K66_tpm.o [1]
+  .text              ro code       0xbce8   0x200  mpuiic.o [1]
+  .rodata            const         0xbee8   0x474  oled.o [1]
+  .text              ro code       0xc35c   0x218  isr.o [1]
+  .text              ro code       0xc574    0xfa  system_MK66.o [1]
+  .rodata            const         0xc670    0x3c  interact.o [1]
+  .rodata            const         0xc6ac    0x3c  interact.o [1]
+  .rodata            const         0xc6e8    0x3c  interact.o [1]
+  .text              ro code       0xc724    0x2c  copy_init3.o [4]
+  .rodata            const         0xc750    0x28  interact.o [1]
+  .rodata            const         0xc778    0x28  interact.o [1]
+  .text              ro code       0xc7a0    0x28  startup_MK66F18.o [1]
+  .text              ro code       0xc7c8    0x28  data_init.o [4]
+  .text              ro code       0xc7f0    0x22  fpinit_M.o [3]
+  .iar.init_table    const         0xc814    0x24  - Linker created -
+  .text              ro code       0xc838    0x1e  cmain.o [4]
+  .text              ro code       0xc856     0x4  low_level_init.o [2]
+  .text              ro code       0xc85a     0x4  exit.o [2]
+  .text              ro code       0xc860     0xa  cexit.o [4]
+  .text              ro code       0xc86c    0x14  exit.o [5]
+  .rodata            const         0xc880    0x14  MK66_gpio.o [1]
+  .rodata            const         0xc894    0x14  MK66_gpio.o [1]
+  .rodata            const         0xc8a8    0x14  MK66_port.o [1]
+  .rodata            const         0xc8bc    0x14  MK66_port.o [1]
+  .rodata            const         0xc8d0    0x10  MK66_ftm.o [1]
+  .rodata            const         0xc8e0     0xc  interact.o [1]
+  .rodata            const         0xc8ec     0xc  interact.o [1]
+  .rodata            const         0xc8f8     0xc  interact.o [1]
+  .rodata            const         0xc904     0xc  interact.o [1]
+  .rodata            const         0xc910     0xc  interact.o [1]
+  .rodata            const         0xc91c     0xc  interact.o [1]
+  .rodata            const         0xc928     0xc  interact.o [1]
+  .rodata            const         0xc934     0xc  interact.o [1]
+  .rodata            const         0xc940     0xc  interact.o [1]
+  .rodata            const         0xc94c     0xc  interact.o [1]
+  .rodata            const         0xc958     0xc  interact.o [1]
+  .rodata            const         0xc964     0xc  interact.o [1]
+  .rodata            const         0xc970     0xc  interact.o [1]
+  .rodata            const         0xc97c     0xc  interact.o [1]
+  .rodata            const         0xc988     0xc  interact.o [1]
+  .rodata            const         0xc994     0xc  interact.o [1]
+  .rodata            const         0xc9a0     0xc  interact.o [1]
+  .text              ro code       0xc9ac     0xc  cstartup_M.o [4]
+  .rodata            const         0xc9b8     0x8  interact.o [1]
+  .rodata            const         0xc9c0     0x8  interact.o [1]
+  .rodata            const         0xc9c8     0x8  interact.o [1]
+  .rodata            const         0xc9d0     0x8  interact.o [1]
+  .rodata            const         0xc9d8     0x8  interact.o [1]
+  .rodata            const         0xc9e0     0x8  interact.o [1]
+  .rodata            const         0xc9e8     0x8  interact.o [1]
+  .rodata            const         0xc9f0     0x8  interact.o [1]
+  .rodata            const         0xc9f8     0x8  interact.o [1]
+  .rodata            const         0xca00     0x8  interact.o [1]
+  .rodata            const         0xca08     0x8  interact.o [1]
+  .rodata            const         0xca10     0x8  interact.o [1]
+  .rodata            const         0xca18     0x8  interact.o [1]
+  .rodata            const         0xca20     0x8  interact.o [1]
+  .rodata            const         0xca28     0x8  interact.o [1]
+  .rodata            const         0xca30     0x8  interact.o [1]
+  .rodata            const         0xca38     0x8  interact.o [1]
+  .rodata            const         0xca40     0x8  interact.o [1]
+  .rodata            const         0xca48     0x8  interact.o [1]
+  .rodata            const         0xca50     0x8  interact.o [1]
+  .rodata            const         0xca58     0x8  interact.o [1]
+  .rodata            const         0xca60     0x8  interact.o [1]
+  .rodata            const         0xca68     0x8  interact.o [1]
+  .rodata            const         0xca70     0x8  interact.o [1]
+  .rodata            const         0xca78     0x8  interact.o [1]
+  .rodata            const         0xca80     0x8  interact.o [1]
+  .rodata            const         0xca88     0x8  interact.o [1]
+  .rodata            const         0xca90     0x8  interact.o [1]
+  .rodata            const         0xca98     0x8  interact.o [1]
+  .rodata            const         0xcaa0     0x8  interact.o [1]
+  .rodata            const         0xcaa8     0x8  interact.o [1]
+  .rodata            const         0xcab0     0x8  interact.o [1]
+  .rodata            const         0xcab8     0x8  interact.o [1]
+  .rodata            const         0xcac0     0x8  interact.o [1]
+  .rodata            const         0xcac8     0x8  interact.o [1]
+  .rodata            const         0xcad0     0x8  interact.o [1]
+  .rodata            const         0xcad8     0x8  interact.o [1]
+  .rodata            const         0xcae0     0x8  interact.o [1]
+  .rodata            const         0xcae8     0x8  interact.o [1]
+  .rodata            const         0xcaf0     0x8  interact.o [1]
+  .rodata            const         0xcaf8     0x8  interact.o [1]
+  .rodata            const         0xcb00     0x8  interact.o [1]
+  .rodata            const         0xcb08     0x8  interact.o [1]
+  .rodata            const         0xcb10     0x8  interact.o [1]
+  .rodata            const         0xcb18     0x8  interact.o [1]
+  .rodata            const         0xcb20     0x8  interact.o [1]
+  .rodata            const         0xcb28     0x8  interact.o [1]
+  .rodata            const         0xcb30     0x8  interact.o [1]
+  .rodata            const         0xcb38     0x8  interact.o [1]
+  .rodata            const         0xcb40     0x8  interact.o [1]
+  .rodata            const         0xcb48     0x8  interact.o [1]
+  .rodata            const         0xcb50     0x8  interact.o [1]
+  .rodata            const         0xcb58     0x8  interact.o [1]
+  .text              ro code       0xcb60     0x8  startup_MK66F18.o [1]
+  .text              ro code       0xcb68     0x8  startup_MK66F18.o [1]
+  .text              ro code       0xcb70     0x8  startup_MK66F18.o [1]
+  .text              ro code       0xcb78     0x8  startup_MK66F18.o [1]
+  .text              ro code       0xcb80     0x8  startup_MK66F18.o [1]
+  .text              ro code       0xcb88     0x8  startup_MK66F18.o [1]
+  .text              ro code       0xcb90     0x8  startup_MK66F18.o [1]
+  .text              ro code       0xcb98     0x8  startup_MK66F18.o [1]
+  .text              ro code       0xcba0     0x8  startup_MK66F18.o [1]
+  .text              ro code       0xcba8     0x8  startup_MK66F18.o [1]
+  .text              ro code       0xcbb0     0x8  startup_MK66F18.o [1]
+  .text              ro code       0xcbb8     0x8  startup_MK66F18.o [1]
+  .text              ro code       0xcbc0     0x8  startup_MK66F18.o [1]
+  .text              ro code       0xcbc8     0x8  startup_MK66F18.o [1]
+  .text              ro code       0xcbd0     0x8  startup_MK66F18.o [1]
+  .text              ro code       0xcbd8     0x8  startup_MK66F18.o [1]
+  .text              ro code       0xcbe0     0x8  startup_MK66F18.o [1]
+  .text              ro code       0xcbe8     0x8  startup_MK66F18.o [1]
+  .text              ro code       0xcbf0     0x8  startup_MK66F18.o [1]
+  .text              ro code       0xcbf8     0x8  startup_MK66F18.o [1]
+  .text              ro code       0xcc00     0x8  startup_MK66F18.o [1]
+  .text              ro code       0xcc08     0x8  startup_MK66F18.o [1]
+  .text              ro code       0xcc10     0x8  startup_MK66F18.o [1]
+  .text              ro code       0xcc18     0x8  startup_MK66F18.o [1]
+  .text              ro code       0xcc20     0x8  startup_MK66F18.o [1]
+  .text              ro code       0xcc28     0x8  startup_MK66F18.o [1]
+  .text              ro code       0xcc30     0x8  startup_MK66F18.o [1]
+  .text              ro code       0xcc38     0x8  startup_MK66F18.o [1]
+  .text              ro code       0xcc40     0x8  startup_MK66F18.o [1]
+  .text              ro code       0xcc48     0x8  startup_MK66F18.o [1]
+  .text              ro code       0xcc50     0x8  startup_MK66F18.o [1]
+  .text              ro code       0xcc58     0x8  startup_MK66F18.o [1]
+  .text              ro code       0xcc60     0x8  startup_MK66F18.o [1]
+  .text              ro code       0xcc68     0x8  startup_MK66F18.o [1]
+  .text              ro code       0xcc70     0x8  startup_MK66F18.o [1]
+  .text              ro code       0xcc78     0x8  startup_MK66F18.o [1]
+  .text              ro code       0xcc80     0x8  startup_MK66F18.o [1]
+  .text              ro code       0xcc88     0x8  startup_MK66F18.o [1]
+  .text              ro code       0xcc90     0x8  startup_MK66F18.o [1]
+  .text              ro code       0xcc98     0x8  startup_MK66F18.o [1]
+  .text              ro code       0xcca0     0x8  startup_MK66F18.o [1]
+  .text              ro code       0xcca8     0x8  startup_MK66F18.o [1]
+  .text              ro code       0xccb0     0x8  startup_MK66F18.o [1]
+  .text              ro code       0xccb8     0x8  startup_MK66F18.o [1]
+  .text              ro code       0xccc0     0x8  startup_MK66F18.o [1]
+  .text              ro code       0xccc8     0x8  startup_MK66F18.o [1]
+  .text              ro code       0xccd0     0x8  startup_MK66F18.o [1]
+  .text              ro code       0xccd8     0x8  startup_MK66F18.o [1]
+  .text              ro code       0xcce0     0x8  startup_MK66F18.o [1]
+  .text              ro code       0xcce8     0x8  startup_MK66F18.o [1]
+  .text              ro code       0xccf0     0x8  startup_MK66F18.o [1]
+  .text              ro code       0xccf8     0x8  startup_MK66F18.o [1]
+  .text              ro code       0xcd00     0x4  startup_MK66F18.o [1]
+  .rodata            const         0xcd04     0x0  zero_init3.o [4]
+  .rodata            const         0xcd04     0x0  copy_init3.o [4]
+  Initializer bytes  const         0xcd04   0x1a4  <for P3 s0>
+                                 - 0xcea8  0xca98
+
+"P3", part 1 of 3:                          0x1a4
+  P3 s0                       0x1fff'0000   0x1a4  <Init block>
+    .data            inited   0x1fff'0000    0xc4  fuzzy.o [1]
+    .data            inited   0x1fff'00c4    0x14  fuzzy.o [1]
+    .data            inited   0x1fff'00d8    0x14  MK66_uart.o [1]
+    .data            inited   0x1fff'00ec    0x10  fuzzy.o [1]
+    .data            inited   0x1fff'00fc    0x10  fuzzy.o [1]
+    .data            inited   0x1fff'010c    0x10  MK66_flash.o [1]
+    .data            inited   0x1fff'011c     0x8  key.o [1]
+    .data            inited   0x1fff'0124     0x4  common.o [1]
+    .data            inited   0x1fff'0128     0x4  common.o [1]
+    .data            inited   0x1fff'012c     0x4  common.o [1]
+    .data            inited   0x1fff'0130     0x4  control.o [1]
+    .data            inited   0x1fff'0134     0x4  control.o [1]
+    .data            inited   0x1fff'0138     0x4  PID.o [1]
+    .data            inited   0x1fff'013c     0x4  PID.o [1]
+    .data            inited   0x1fff'0140     0x2  barrier.o [1]
+    .data            inited   0x1fff'0142     0x2  barrier.o [1]
+    .data            inited   0x1fff'0144     0x2  barrier.o [1]
+    .data            inited   0x1fff'0146     0x2  barrier.o [1]
+    .data            inited   0x1fff'0148     0x2  barrier.o [1]
+    .data            inited   0x1fff'014a     0x2  control.o [1]
+    .data            inited   0x1fff'014c     0x2  control.o [1]
+    .data            inited   0x1fff'014e     0x2  control.o [1]
+    .data            inited   0x1fff'0150     0x2  control.o [1]
+    .data            inited   0x1fff'0152     0x2  control.o [1]
+    .data            inited   0x1fff'0154     0x2  control.o [1]
+    .data            inited   0x1fff'0156     0x2  control.o [1]
+    .data            inited   0x1fff'0158     0x2  control.o [1]
+    .data            inited   0x1fff'015a     0x2  control.o [1]
+    .data            inited   0x1fff'015c     0x2  control.o [1]
+    .data            inited   0x1fff'015e     0x2  control.o [1]
+    .data            inited   0x1fff'0160     0x2  control.o [1]
+    .data            inited   0x1fff'0162     0x2  control.o [1]
+    .data            inited   0x1fff'0164     0x2  control.o [1]
+    .data            inited   0x1fff'0166     0x2  control.o [1]
+    .data            inited   0x1fff'0168     0x2  control.o [1]
+    .data            inited   0x1fff'016a     0x2  control.o [1]
+    .data            inited   0x1fff'016c     0x2  control.o [1]
+    .data            inited   0x1fff'016e     0x2  control.o [1]
+    .data            inited   0x1fff'0170     0x2  control.o [1]
+    .data            inited   0x1fff'0172     0x2  control.o [1]
+    .data            inited   0x1fff'0174     0x2  crash.o [1]
+    .data            inited   0x1fff'0176     0x2  PID.o [1]
+    .data            inited   0x1fff'0178     0x2  PID.o [1]
+    .data            inited   0x1fff'017a     0x2  PID.o [1]
+    .data            inited   0x1fff'017c     0x2  PID.o [1]
+    .data            inited   0x1fff'017e     0x2  PID.o [1]
+    .data            inited   0x1fff'0180     0x2  PID.o [1]
+    .data            inited   0x1fff'0182     0x2  PID.o [1]
+    .data            inited   0x1fff'0184     0x2  PID.o [1]
+    .data            inited   0x1fff'0186     0x2  PID.o [1]
+    .data            inited   0x1fff'0188     0x2  PID.o [1]
+    .data            inited   0x1fff'018a     0x2  PID.o [1]
+    .data            inited   0x1fff'018c     0x2  top6050.o [1]
+    .data            inited   0x1fff'018e     0x2  top6050.o [1]
+    .data            inited   0x1fff'0190     0x2  top6050.o [1]
+    .data            inited   0x1fff'0192     0x2  top6050.o [1]
+    .data            inited   0x1fff'0194     0x2  top6050.o [1]
+    .data            inited   0x1fff'0196     0x1  control.o [1]
+    .data            inited   0x1fff'0197     0x1  control.o [1]
+    .data            inited   0x1fff'0198     0x1  control.o [1]
+    .data            inited   0x1fff'0199     0x1  control.o [1]
+    .data            inited   0x1fff'019a     0x1  control.o [1]
+    .data            inited   0x1fff'019b     0x1  control.o [1]
+    .data            inited   0x1fff'019c     0x1  control.o [1]
+    .data            inited   0x1fff'019d     0x1  control.o [1]
+    .data            inited   0x1fff'019e     0x1  crash.o [1]
+    .data            inited   0x1fff'019f     0x1  crash.o [1]
+    .data            inited   0x1fff'01a0     0x1  crash.o [1]
+    .data            inited   0x1fff'01a1     0x1  interact.o [1]
+                            - 0x1fff'01a4   0x1a4
+
+"P3", part 2 of 3:                          0x6f0
+  .bss               zero     0x1fff'01a4   0x400  oled.o [1]
+  .bss               zero     0x1fff'05a4    0x30  flash.o [1]
+  .bss               zero     0x1fff'05d4    0x28  key.o [1]
+  .bss               zero     0x1fff'05fc    0x28  PID.o [1]
+  .bss               zero     0x1fff'0624    0x28  PID.o [1]
+  .bss               zero     0x1fff'064c    0x28  PID.o [1]
+  .bss               zero     0x1fff'0674    0x28  PID.o [1]
+  .bss               zero     0x1fff'069c    0x20  control.o [1]
+  .bss               zero     0x1fff'06bc    0x20  PID.o [1]
+  .bss               zero     0x1fff'06dc    0x20  PID.o [1]
+  .bss               zero     0x1fff'06fc    0x20  PID.o [1]
+  .bss               zero     0x1fff'071c    0x14  control.o [1]
+  .bss               zero     0x1fff'0730    0x10  control.o [1]
+  .bss               zero     0x1fff'0740    0x10  control.o [1]
+  .bss               zero     0x1fff'0750     0xc  openmv.o [1]
+  .bss               zero     0x1fff'075c     0xc  openmv.o [1]
+  .bss               zero     0x1fff'0768     0xc  pan_infrared.o [1]
+  .bss               zero     0x1fff'0774     0x8  key.o [1]
+  .bss               zero     0x1fff'0780     0x8  main.o [1]
+  .bss               zero     0x1fff'0788     0x8  MK66_ftm.o [1]
+  .bss               zero     0x1fff'0790     0x4  algo.o [1]
+  .bss               zero     0x1fff'0794     0x4  algo.o [1]
+  .bss               zero     0x1fff'0798     0x4  barrier.o [1]
+  .bss               zero     0x1fff'079c     0x4  control.o [1]
+  .bss               zero     0x1fff'07a0     0x4  control.o [1]
+  .bss               zero     0x1fff'07a4     0x4  control.o [1]
+  .bss               zero     0x1fff'07a8     0x4  control.o [1]
+  .bss               zero     0x1fff'07ac     0x4  control.o [1]
+  .bss               zero     0x1fff'07b0     0x4  control.o [1]
+  .bss               zero     0x1fff'07b4     0x4  control.o [1]
+  .bss               zero     0x1fff'07b8     0x4  control.o [1]
+  .bss               zero     0x1fff'07bc     0x4  control.o [1]
+  .bss               zero     0x1fff'07c0     0x4  control.o [1]
+  .bss               zero     0x1fff'07c4     0x4  control.o [1]
+  .bss               zero     0x1fff'07c8     0x4  main.o [1]
+  .bss               zero     0x1fff'07cc     0x4  MK66_flash.o [1]
+  .bss               zero     0x1fff'07d0     0x4  PID.o [1]
+  .bss               zero     0x1fff'07d4     0x4  PID.o [1]
+  .bss               zero     0x1fff'07d8     0x4  PID.o [1]
+  .bss               zero     0x1fff'07dc     0x4  top6050.o [1]
+  .bss               zero     0x1fff'07e0     0x4  top6050.o [1]
+  .bss               zero     0x1fff'07e4     0x4  top6050.o [1]
+  .bss               zero     0x1fff'07e8     0x4  top6050.o [1]
+  .bss               zero     0x1fff'07ec     0x4  top6050.o [1]
+  .bss               zero     0x1fff'07f0     0x2  barrier.o [1]
+  .bss               zero     0x1fff'07f2     0x2  control.o [1]
+  .bss               zero     0x1fff'07f4     0x2  control.o [1]
+  .bss               zero     0x1fff'07f6     0x2  control.o [1]
+  .bss               zero     0x1fff'07f8     0x2  control.o [1]
+  .bss               zero     0x1fff'07fa     0x2  control.o [1]
+  .bss               zero     0x1fff'07fc     0x2  control.o [1]
+  .bss               zero     0x1fff'07fe     0x2  control.o [1]
+  .bss               zero     0x1fff'0800     0x2  control.o [1]
+  .bss               zero     0x1fff'0802     0x2  control.o [1]
+  .bss               zero     0x1fff'0804     0x2  control.o [1]
+  .bss               zero     0x1fff'0806     0x2  control.o [1]
+  .bss               zero     0x1fff'0808     0x2  control.o [1]
+  .bss               zero     0x1fff'080a     0x2  control.o [1]
+  .bss               zero     0x1fff'080c     0x2  control.o [1]
+  .bss               zero     0x1fff'080e     0x2  control.o [1]
+  .bss               zero     0x1fff'0810     0x2  control.o [1]
+  .bss               zero     0x1fff'0812     0x2  control.o [1]
+  .bss               zero     0x1fff'0814     0x2  control.o [1]
+  .bss               zero     0x1fff'0816     0x2  crash.o [1]
+  .bss               zero     0x1fff'0818     0x2  crash.o [1]
+  .bss               zero     0x1fff'081a     0x2  crash.o [1]
+  .bss               zero     0x1fff'081c     0x2  main.o [1]
+  .bss               zero     0x1fff'081e     0x2  main.o [1]
+  .bss               zero     0x1fff'0820     0x2  openmv.o [1]
+  .bss               zero     0x1fff'0822     0x2  openmv.o [1]
+  .bss               zero     0x1fff'0824     0x2  openmv.o [1]
+  .bss               zero     0x1fff'0826     0x2  openmv.o [1]
+  .bss               zero     0x1fff'0828     0x2  openmv.o [1]
+  .bss               zero     0x1fff'082a     0x2  openmv.o [1]
+  .bss               zero     0x1fff'082c     0x2  openmv.o [1]
+  .bss               zero     0x1fff'082e     0x2  openmv.o [1]
+  .bss               zero     0x1fff'0830     0x2  openmv.o [1]
+  .bss               zero     0x1fff'0832     0x2  openmv.o [1]
+  .bss               zero     0x1fff'0834     0x2  openmv.o [1]
+  .bss               zero     0x1fff'0836     0x2  openmv.o [1]
+  .bss               zero     0x1fff'0838     0x2  openmv.o [1]
+  .bss               zero     0x1fff'083a     0x2  openmv.o [1]
+  .bss               zero     0x1fff'083c     0x2  PID.o [1]
+  .bss               zero     0x1fff'083e     0x2  PID.o [1]
+  .bss               zero     0x1fff'0840     0x2  PID.o [1]
+  .bss               zero     0x1fff'0842     0x2  PID.o [1]
+  .bss               zero     0x1fff'0844     0x2  PID.o [1]
+  .bss               zero     0x1fff'0846     0x2  top6050.o [1]
+  .bss               zero     0x1fff'0848     0x2  top6050.o [1]
+  .bss               zero     0x1fff'084a     0x2  top6050.o [1]
+  .bss               zero     0x1fff'084c     0x1  barrier.o [1]
+  .bss               zero     0x1fff'084d     0x1  barrier.o [1]
+  .bss               zero     0x1fff'084e     0x1  beep.o [1]
+  .bss               zero     0x1fff'084f     0x1  control.o [1]
+  .bss               zero     0x1fff'0850     0x1  control.o [1]
+  .bss               zero     0x1fff'0851     0x1  control.o [1]
+  .bss               zero     0x1fff'0852     0x1  control.o [1]
+  .bss               zero     0x1fff'0853     0x1  control.o [1]
+  .bss               zero     0x1fff'0854     0x1  control.o [1]
+  .bss               zero     0x1fff'0855     0x1  control.o [1]
+  .bss               zero     0x1fff'0856     0x1  control.o [1]
+  .bss               zero     0x1fff'0857     0x1  control.o [1]
+  .bss               zero     0x1fff'0858     0x1  control.o [1]
+  .bss               zero     0x1fff'0859     0x1  control.o [1]
+  .bss               zero     0x1fff'085a     0x1  control.o [1]
+  .bss               zero     0x1fff'085b     0x1  control.o [1]
+  .bss               zero     0x1fff'085c     0x1  control.o [1]
+  .bss               zero     0x1fff'085d     0x1  control.o [1]
+  .bss               zero     0x1fff'085e     0x1  control.o [1]
+  .bss               zero     0x1fff'085f     0x1  control.o [1]
+  .bss               zero     0x1fff'0860     0x1  control.o [1]
+  .bss               zero     0x1fff'0861     0x1  control.o [1]
+  .bss               zero     0x1fff'0862     0x1  crash.o [1]
+  .bss               zero     0x1fff'0863     0x1  crash.o [1]
+  .bss               zero     0x1fff'0864     0x1  crash.o [1]
+  .bss               zero     0x1fff'0865     0x1  crash.o [1]
+  .bss               zero     0x1fff'0866     0x1  crash.o [1]
+  .bss               zero     0x1fff'0867     0x1  crash.o [1]
+  .bss               zero     0x1fff'0868     0x1  interact.o [1]
+  .bss               zero     0x1fff'0869     0x1  interact.o [1]
+  .bss               zero     0x1fff'086a     0x1  interact.o [1]
+  .bss               zero     0x1fff'086b     0x1  interact.o [1]
+  .bss               zero     0x1fff'086c     0x1  interact.o [1]
+  .bss               zero     0x1fff'086d     0x1  interact.o [1]
+  .bss               zero     0x1fff'086e     0x1  interact.o [1]
+  .bss               zero     0x1fff'086f     0x1  interact.o [1]
+  .bss               zero     0x1fff'0870     0x1  interact.o [1]
+  .bss               zero     0x1fff'0871     0x1  interact.o [1]
+  .bss               zero     0x1fff'0872     0x1  interact.o [1]
+  .bss               zero     0x1fff'0873     0x1  interact.o [1]
+  .bss               zero     0x1fff'0874     0x1  interact.o [1]
+  .bss               zero     0x1fff'0875     0x1  isr.o [1]
+  .bss               zero     0x1fff'0876     0x1  isr.o [1]
+  .bss               zero     0x1fff'0877     0x1  key.o [1]
+  .bss               zero     0x1fff'0878     0x1  key.o [1]
+  .bss               zero     0x1fff'0879     0x1  key.o [1]
+  .bss               zero     0x1fff'087a     0x1  main.o [1]
+  .bss               zero     0x1fff'087b     0x1  main.o [1]
+  .bss               zero     0x1fff'087c     0x1  openmv.o [1]
+  .bss               zero     0x1fff'087d     0x1  openmv.o [1]
+  .bss               zero     0x1fff'087e     0x1  openmv.o [1]
+  .bss               zero     0x1fff'087f     0x1  openmv.o [1]
+  .bss               zero     0x1fff'0880     0x1  openmv.o [1]
+  .bss               zero     0x1fff'0881     0x1  openmv.o [1]
+  .bss               zero     0x1fff'0882     0x1  openmv.o [1]
+  .bss               zero     0x1fff'0883     0x1  openmv.o [1]
+  .bss               zero     0x1fff'0884     0x1  openmv.o [1]
+  .bss               zero     0x1fff'0885     0x1  openmv.o [1]
+  .bss               zero     0x1fff'0886     0x1  pan_infrared.o [1]
+  .bss               zero     0x1fff'0887     0x1  pan_infrared.o [1]
+  .bss               zero     0x1fff'0888     0x1  pan_infrared.o [1]
+  .bss               zero     0x1fff'0889     0x1  pan_infrared.o [1]
+  .bss               zero     0x1fff'088a     0x1  pan_infrared.o [1]
+  .bss               zero     0x1fff'088b     0x1  pan_infrared.o [1]
+  .bss               zero     0x1fff'088c     0x1  pan_infrared.o [1]
+  .bss               zero     0x1fff'088d     0x1  pan_infrared.o [1]
+  .bss               zero     0x1fff'088e     0x1  pan_infrared.o [1]
+  .bss               zero     0x1fff'088f     0x1  pan_infrared.o [1]
+  .bss               zero     0x1fff'0890     0x1  pan_infrared.o [1]
+  .bss               zero     0x1fff'0891     0x1  pan_infrared.o [1]
+  .bss               zero     0x1fff'0892     0x1  top6050.o [1]
+                            - 0x1fff'0893   0x6ef
+
+"P3", part 3 of 3:                         0x2000
+  CSTACK                      0x1fff'0898  0x2000  <Block>
+    CSTACK           uninit   0x1fff'0898  0x2000  <Block tail>
+                            - 0x1fff'2898  0x2000
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+       0xcea8     0xf'ffff  0xf'3158
+  0x1000'0000  0x1003'ffff  0x4'0000
+  0x1fff'0894  0x1fff'0897       0x4
+  0x1fff'2898  0x2002'ffff  0x3'd768
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x6ef:
+          0x1fff'01a4  0x6ef
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0x1a4 (100% of destination):
+               0xcd04  0x1a4
+    1 destination range, total size 0x1a2:
+          0x1fff'0000  0x1a2
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module             ro code  ro data  rw data
+    ------             -------  -------  -------
+command line/config:
+    --------------------------------------------
+    Total:
+
+C:\Users\Mr.Wang\Desktop\bcn_MAS强减速\Projecct\IAR\program\MK66FX_Debug\Obj: [1]
+    K66_tpm.o              216
+    MK66_flash.o           332       16       20
+    MK66_ftm.o           1 296       16        8
+    MK66_gpio.o            584       40
+    MK66_pit.o             348
+    MK66_port.o            228       40
+    MK66_systick.o         104
+    MK66_uart.o            672       20       20
+    PID.o                2 656       30      308
+    algo.o                 106                 8
+    barrier.o              836       10       18
+    beep.o                  44                 1
+    bluetooth.o            302
+    common.o               100       12       12
+    control.o            7 900       58      241
+    crash.o              1 160        5       17
+    encode.o               468
+    flash.o              2 472                48
+    fuzzy.o              1 988      248      248
+    interact.o          10 948      889       14
+    isr.o                  536                 2
+    key.o                  484        8       59
+    main.o               1 148                18
+    motor.o                340
+    mpu6050.o              646
+    mpuiic.o               512
+    oled.o               2 572    6 080    1 024
+    openmv.o             1 280                62
+    pan_infrared.o         592                24
+    startup_MK66F18.o    1 516
+    system_MK66.o          250
+    top6050.o              476       10       37
+    --------------------------------------------
+    Total:              43 112    7 482    2 189
+
+dl7M_tlf.a: [2]
+    exit.o                   4
+    low_level_init.o         4
+    --------------------------------------------
+    Total:                   8
+
+m7M_tls.a: [3]
+    DblAdd.o               378
+    DblDiv.o               582
+    DblMul.o               418
+    DblSub.o               226
+    DblToFlt.o             104
+    DblToS32.o              58
+    FltToDbl.o              72
+    S32ToDbl.o              34
+    fpinit_M.o              34
+    --------------------------------------------
+    Total:               1 906
+
+rt7M_tl.a: [4]
+    ABImemcpy.o            134
+    cexit.o                 10
+    cmain.o                 30
+    copy_init3.o            44
+    cstartup_M.o            12
+    data_init.o             40
+    zero_init3.o            58
+    --------------------------------------------
+    Total:                 328
+
+shb_l.a: [5]
+    exit.o                  20
+    --------------------------------------------
+    Total:                  20
+
+    Gaps                     6        4        4
+    Linker created                   38    8 192
+------------------------------------------------
+    Grand Total:        45 380    7 524   10 385
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address   Size  Type      Object
+-----                       -------   ----  ----      ------
+.iar.init_table$$Base        0xc814          --   Gb  - Linker created -
+.iar.init_table$$Limit       0xc838          --   Gb  - Linker created -
+?main                        0xc839         Code  Gb  cmain.o [4]
+ALGO_Fabs                    0x57d5   0x12  Code  Gb  algo.o [1]
+ALGO_KalmanSpeed             0x577d   0x4e  Code  Gb  algo.o [1]
+ALGO_KalmanSpeed::p_last
+                        0x1fff'0794    0x4  Data  Lc  algo.o [1]
+ALGO_KalmanSpeed::speed_last
+                        0x1fff'0790    0x4  Data  Lc  algo.o [1]
+BARRIER_Control              0x8ded  0x344  Code  Gb  barrier.o [1]
+BEEP_Init                    0x8939    0xe  Code  Gb  beep.o [1]
+BEEP_OFF                     0x8959    0xc  Code  Gb  beep.o [1]
+BEEP_ON                      0x8947    0xe  Code  Gb  beep.o [1]
+BLT_SendData16               0xb693  0x120  Code  Gb  bluetooth.o [1]
+BLT_UartInit                 0xb685    0xe  Code  Gb  bluetooth.o [1]
+CRASH_Check                  0x8a6f  0x2c0  Code  Gb  crash.o [1]
+CRASH_Check::bcn_count  0x1fff'0864    0x1  Data  Lc  crash.o [1]
+CRASH_Check::bcn_count2
+                        0x1fff'0866    0x1  Data  Lc  crash.o [1]
+CRASH_Check::max_bcn    0x1fff'0865    0x1  Data  Lc  crash.o [1]
+CRASH_Check::max_bcn2   0x1fff'0867    0x1  Data  Lc  crash.o [1]
+CRASH_Check::min_bcn    0x1fff'019f    0x1  Data  Lc  crash.o [1]
+CRASH_Check::min_bcn2   0x1fff'01a0    0x1  Data  Lc  crash.o [1]
+CRASH_Get                    0x8965   0xbe  Code  Gb  crash.o [1]
+CRASH_Get::key_count    0x1fff'0863    0x1  Data  Lc  crash.o [1]
+CRASH_Get::last_key_state
+                        0x1fff'0818    0x2  Data  Lc  crash.o [1]
+CRASH_KeyInit                0x8a23   0x4c  Code  Gb  crash.o [1]
+CRASH_Solve                  0x8d31   0x52  Code  Gb  crash.o [1]
+CSTACK$$Base            0x1fff'0898          --   Gb  - Linker created -
+CSTACK$$Limit           0x1fff'2898          --   Gb  - Linker created -
+CTRL_Control                 0x6b89  0x886  Code  Gb  control.o [1]
+CTRL_GetOffset               0x762d  0xbec  Code  Gb  control.o [1]
+CTRL_GetSetX                 0x8271  0x1e4  Code  Gb  control.o [1]
+CTRL_GetTurnDir              0x853d  0x104  Code  Gb  control.o [1]
+CTRL_LightCount              0x7411  0x108  Code  Gb  control.o [1]
+CTRL_PwmCompensateCal        0x8671  0x16c  Code  Gb  control.o [1]
+CTRL_PwmCompensateClear
+                             0x87e5   0x3a  Code  Gb  control.o [1]
+CTRL_SpeedSet                0x6a75  0x10c  Code  Gb  control.o [1]
+CTRL_StartCheck              0x847d   0x8e  Code  Gb  control.o [1]
+CTRL_StartCheck::start_flag
+                        0x1fff'0861    0x1  Data  Lc  control.o [1]
+Disable_Wdog                 0xc575   0x18  Code  Gb  system_MK66.o [1]
+ENCODE_Init                  0xb7cb   0x3e  Code  Gb  encode.o [1]
+ENCODE_Read                  0xb809   0x72  Code  Gb  encode.o [1]
+ENCODE_SpeedCm               0xb87d   0xec  Code  Gb  encode.o [1]
+FLASH_EraseSector            0x5579   0x38  Code  Gb  MK66_flash.o [1]
+FLASH_Init                   0x5571    0x8  Code  Gb  MK66_flash.o [1]
+FLASH_Read                   0x4091  0x308  Code  Gb  flash.o [1]
+FLASH_Write                  0x3bed  0x494  Code  Gb  flash.o [1]
+FLASH_WriteSector            0x55b1   0xa8  Code  Gb  MK66_flash.o [1]
+FTMX                         0xc8d0   0x10  Data  Lc  MK66_ftm.o [1]
+FTM_port_mux                 0x654d  0x1b0  Code  Gb  MK66_ftm.o [1]
+FUZZY_P                      0x57e9  0x7c4  Code  Gb  fuzzy.o [1]
+FlashCmdStart                0x554d   0x24  Code  Lc  MK66_flash.o [1]
+GPIOX                        0xc894   0x14  Data  Lc  MK66_gpio.o [1]
+GPIOX                        0xc8bc   0x14  Data  Lc  MK66_port.o [1]
+INFRARED_Get                 0xb511  0x13e  Code  Gb  pan_infrared.o [1]
+INFRARED_Init                0xb435   0xdc  Code  Gb  pan_infrared.o [1]
+INIT_All                     0xae95   0x80  Code  Gb  main.o [1]
+KEY_PTxn                0x1fff'011c    0x8  Data  Gb  key.o [1]
+KalmanFilter                 0xb38d   0x4e  Code  Gb  top6050.o [1]
+KalmanFilter::p_last    0x1fff'07ec    0x4  Data  Lc  top6050.o [1]
+KalmanFilter::x_last    0x1fff'07e8    0x4  Data  Lc  top6050.o [1]
+MENU_Camera                   0xf11  0x890  Code  Gb  interact.o [1]
+MENU_Camera2                 0x1805  0x5c6  Code  Gb  interact.o [1]
+MENU_Camera2::arrow     0x1fff'0870    0x1  Data  Lc  interact.o [1]
+MENU_Camera2::save_flag
+                        0x1fff'0871    0x1  Data  Lc  interact.o [1]
+MENU_Camera::arrow      0x1fff'086e    0x1  Data  Lc  interact.o [1]
+MENU_Camera::save_flag  0x1fff'086f    0x1  Data  Lc  interact.o [1]
+MENU_CoordCross              0x2ea1   0x34  Code  Gb  interact.o [1]
+MENU_Display                  0x549   0x4a  Code  Gb  interact.o [1]
+MENU_Garish                   0x893  0x5ca  Code  Gb  interact.o [1]
+MENU_Garish::arrow      0x1fff'086c    0x1  Data  Lc  interact.o [1]
+MENU_Garish::save_flag  0x1fff'086d    0x1  Data  Lc  interact.o [1]
+MENU_GetSig                   0x411   0xb8  Code  Gb  interact.o [1]
+MENU_Main                     0x593  0x300  Code  Gb  interact.o [1]
+MENU_Motor                   0x1e2d  0x7c0  Code  Gb  interact.o [1]
+MENU_Motor::arrow       0x1fff'01a1    0x1  Data  Lc  interact.o [1]
+MENU_Motor::save_flag   0x1fff'0872    0x1  Data  Lc  interact.o [1]
+MENU_Position                0x2635  0x7f2  Code  Gb  interact.o [1]
+MENU_Position::arrow    0x1fff'0873    0x1  Data  Lc  interact.o [1]
+MENU_Position::save_flag
+                        0x1fff'0874    0x1  Data  Lc  interact.o [1]
+MENU_SigHandling              0x4c9   0x80  Code  Gb  interact.o [1]
+MOTOR_Control                0x645f   0xec  Code  Gb  motor.o [1]
+MOTOR_Init                   0x63f7   0x68  Code  Gb  motor.o [1]
+MPU6050_GetData              0xb289  0x104  Code  Gb  top6050.o [1]
+MPU6050_GyroAdjust           0xb259   0x26  Code  Gb  top6050.o [1]
+MPU6050_Init                 0xb27f    0x8  Code  Gb  top6050.o [1]
+MPU_Get_Gyroscope            0xbac5   0x4a  Code  Gb  mpu6050.o [1]
+MPU_IIC_Ack                  0xbdcf   0x34  Code  Gb  mpuiic.o [1]
+MPU_IIC_Delay                0xbce9    0xa  Code  Gb  mpuiic.o [1]
+MPU_IIC_Init                 0xbcf3   0x28  Code  Gb  mpuiic.o [1]
+MPU_IIC_NAck                 0xbe03   0x34  Code  Gb  mpuiic.o [1]
+MPU_IIC_Read_Byte            0xbe8f   0x5a  Code  Gb  mpuiic.o [1]
+MPU_IIC_Send_Byte            0xbe37   0x58  Code  Gb  mpuiic.o [1]
+MPU_IIC_Start                0xbd1b   0x2c  Code  Gb  mpuiic.o [1]
+MPU_IIC_Stop                 0xbd47   0x30  Code  Gb  mpuiic.o [1]
+MPU_IIC_Wait_Ack             0xbd77   0x58  Code  Gb  mpuiic.o [1]
+MPU_Init                     0xb989   0x7c  Code  Gb  mpu6050.o [1]
+MPU_Read_Byte                0xbbd1   0x3e  Code  Gb  mpu6050.o [1]
+MPU_Read_Len                 0xbb0f   0x76  Code  Gb  mpu6050.o [1]
+MPU_Set_Accel_Fsr            0xba15   0x10  Code  Gb  mpu6050.o [1]
+MPU_Set_Gyro_Fsr             0xba05   0x10  Code  Gb  mpu6050.o [1]
+MPU_Set_LPF                  0xba25   0x50  Code  Gb  mpu6050.o [1]
+MPU_Set_Rate                 0xba75   0x4e  Code  Gb  mpu6050.o [1]
+MPU_Write_Byte               0xbb85   0x4c  Code  Gb  mpu6050.o [1]
+NMI_Handler                  0xc66d    0x2  Code  Gb  system_MK66.o [1]
+NVIC_EnableIRQ               0x6a5d   0x18  Code  Lc  control.o [1]
+NVIC_EnableIRQ               0xb7b5   0x16  Code  Lc  encode.o [1]
+NVIC_EnableIRQ               0xad79   0x16  Code  Lc  main.o [1]
+NVIC_EnableIRQ               0xaad9   0x18  Code  Lc  MK66_uart.o [1]
+OLED_Clear                   0x316f   0x3a  Code  Gb  oled.o [1]
+OLED_DrawPoint               0x31a9   0x9e  Code  Gb  oled.o [1]
+OLED_GRAM               0x1fff'01a4  0x400  Data  Gb  oled.o [1]
+OLED_Init                    0x3975  0x150  Code  Gb  oled.o [1]
+OLED_Refresh_Gram            0x30b9   0x56  Code  Gb  oled.o [1]
+OLED_ShowChar                0x3247  0x12c  Code  Gb  oled.o [1]
+OLED_ShowNum                 0x33c5  0x106  Code  Gb  oled.o [1]
+OLED_ShowNumFloat            0x36b5  0x1d8  Code  Gb  oled.o [1]
+OLED_ShowNum_Inverse         0x34cb  0x106  Code  Gb  oled.o [1]
+OLED_ShowString              0x388d   0x74  Code  Gb  oled.o [1]
+OLED_ShowString_Inverse
+                             0x3901   0x74  Code  Gb  oled.o [1]
+OLED_Showint                 0x35d1   0x72  Code  Gb  oled.o [1]
+OLED_Showint_Inverse         0x3643   0x72  Code  Gb  oled.o [1]
+OLED_WR_Byte                 0x310f   0x60  Code  Gb  oled.o [1]
+OPENMV_BcnCoord              0xa873  0x1be  Code  Gb  openmv.o [1]
+OPENMV_BcnCoord::mv_no_index
+                        0x1fff'0884    0x1  Data  Lc  openmv.o [1]
+OPENMV_BcnCoord::mv_no_index2
+                        0x1fff'0885    0x1  Data  Lc  openmv.o [1]
+OPENMV_Init                  0xa5d9   0x24  Code  Gb  openmv.o [1]
+OPENMV_Read                  0xa5fd  0x276  Code  Gb  openmv.o [1]
+PID_Curve                    0x477d  0x15e  Code  Gb  PID.o [1]
+PID_MotorCal                 0x4c25  0x140  Code  Gb  PID.o [1]
+PID_MotorControl             0x4d7d  0x38e  Code  Gb  PID.o [1]
+PID_MotorInit                0x4bf9   0x2a  Code  Gb  PID.o [1]
+PID_PositionCal              0x4991  0x250  Code  Gb  PID.o [1]
+PID_PositionInit             0x4759   0x22  Code  Gb  PID.o [1]
+PID_ZCal                     0x48dd   0x96  Code  Gb  PID.o [1]
+PIT0_IRQHandler              0xc385  0x13e  Code  Gb  isr.o [1]
+PIT1_IRQHandler              0xc4c3   0x12  Code  Gb  isr.o [1]
+PIT3_IRQHandler              0xc4d5   0x28  Code  Gb  isr.o [1]
+PORTX                        0xc880   0x14  Data  Lc  MK66_gpio.o [1]
+PORTX                        0xc8a8   0x14  Data  Lc  MK66_port.o [1]
+ParaInit                     0xaf15  0x17a  Code  Gb  main.o [1]
+Protect                      0xae3b   0x5a  Code  Gb  main.o [1]
+Region$$Table$$Base          0xc814          --   Gb  - Linker created -
+Region$$Table$$Limit         0xc838          --   Gb  - Linker created -
+SYSTEM_CLK                   0xc5a3   0x7c  Code  Gb  system_MK66.o [1]
+Start                        0xc61f   0x20  Code  Gb  system_MK66.o [1]
+TPM_Clear                    0xbcad   0x18  Code  Gb  K66_tpm.o [1]
+TPM_PulseInit                0xbc11   0x82  Code  Gb  K66_tpm.o [1]
+TPM_Read                     0xbc93   0x1a  Code  Gb  K66_tpm.o [1]
+UART0_RX_TX_IRQHandler       0xc35d   0x14  Code  Gb  isr.o [1]
+UART1_RX_TX_IRQHandler       0xc371   0x14  Code  Gb  isr.o [1]
+__Vectors                       0x0          --   Gb  startup_MK66F18.o [1]
+__Vectors_End                 0x400         Data  Gb  startup_MK66F18.o [1]
+__Vectors_Size {Abs}          0x400          --   Gb  startup_MK66F18.o [1]
+__aeabi_d2f                  0x3ac5         Code  Gb  DblToFlt.o [3]
+__aeabi_d2iz                 0x63bd         Code  Gb  DblToS32.o [3]
+__aeabi_dadd                 0x45dd         Code  Gb  DblAdd.o [3]
+__aeabi_ddiv                 0x6151         Code  Gb  DblDiv.o [3]
+__aeabi_dmul                 0x5fad         Code  Gb  DblMul.o [3]
+__aeabi_dsub                 0x5699         Code  Gb  DblSub.o [3]
+__aeabi_f2d                  0x4595         Code  Gb  FltToDbl.o [3]
+__aeabi_i2d                  0x6399         Code  Gb  S32ToDbl.o [3]
+__aeabi_memcpy4              0x3b2d         Code  Gb  ABImemcpy.o [4]
+__aeabi_memcpy8              0x3b2d         Code  Gb  ABImemcpy.o [4]
+__cmain                      0xc839         Code  Gb  cmain.o [4]
+__exit                       0xc86d   0x14  Code  Gb  exit.o [5]
+__iar_copy_init3             0xc725   0x2c  Code  Gb  copy_init3.o [4]
+__iar_dadd                   0x56a9         Code  Gb  DblSub.o [3]
+__iar_data_init3             0xc7c9   0x28  Code  Gb  data_init.o [4]
+__iar_dsub                   0x45ed         Code  Gb  DblAdd.o [3]
+__iar_dsubStart              0x45ff         Code  Gb  DblAdd.o [3]
+__iar_init_vfp               0xc7f1         Code  Gb  fpinit_M.o [3]
+__iar_program_start          0xc9ad         Code  Gb  cstartup_M.o [4]
+__iar_zero_init3             0x3bb3   0x3a  Code  Gb  zero_init3.o [4]
+__low_level_init             0xc857    0x4  Code  Gb  low_level_init.o [2]
+__vector_table                  0x0         Data  Gb  startup_MK66F18.o [1]
+__vector_table_0x1c            0x1c         Data  Gb  startup_MK66F18.o [1]
+_call_main                   0xc845         Code  Gb  cmain.o [4]
+_exit                        0xc861         Code  Gb  cexit.o [4]
+_main                        0xc853         Code  Gb  cmain.o [4]
+act_speed1              0x1fff'07f2    0x2  Data  Gb  control.o [1]
+act_speed2              0x1fff'07f4    0x2  Data  Gb  control.o [1]
+act_speed3              0x1fff'07f6    0x2  Data  Gb  control.o [1]
+act_speed4              0x1fff'07f8    0x2  Data  Gb  control.o [1]
+act_speed_l             0x1fff'07fa    0x2  Data  Gb  control.o [1]
+act_speed_r             0x1fff'07fc    0x2  Data  Gb  control.o [1]
+act_speed_y             0x1fff'079c    0x4  Data  Gb  control.o [1]
+ahead_down_thd          0x1fff'0170    0x2  Data  Gb  control.o [1]
+aim_cnt                 0x1fff'0198    0x1  Data  Gb  control.o [1]
+all_key_state           0x1fff'081a    0x2  Data  Gb  crash.o [1]
+angle_y                 0x1fff'0166    0x2  Data  Gb  control.o [1]
+asc2_1206                    0xbee8  0x474  Data  Gb  oled.o [1]
+asc2_1608                    0x9fe8  0x5f0  Data  Gb  oled.o [1]
+asc2_2412                    0x928c  0xd5c  Data  Gb  oled.o [1]
+back_en                 0x1fff'0199    0x1  Data  Gb  control.o [1]
+barrier_cnt             0x1fff'0146    0x2  Data  Gb  barrier.o [1]
+barrier_delay           0x1fff'0148    0x2  Data  Gb  barrier.o [1]
+barrier_must_y          0x1fff'0142    0x2  Data  Gb  barrier.o [1]
+barrier_must_y2         0x1fff'0144    0x2  Data  Gb  barrier.o [1]
+barrier_vx              0x1fff'07f0    0x2  Data  Gb  barrier.o [1]
+barrier_vy              0x1fff'0798    0x4  Data  Gb  barrier.o [1]
+barrier_x               0x1fff'0826    0x2  Data  Gb  openmv.o [1]
+barrier_x2              0x1fff'0830    0x2  Data  Gb  openmv.o [1]
+barrier_x_minus         0x1fff'0140    0x2  Data  Gb  barrier.o [1]
+barrier_y               0x1fff'0828    0x2  Data  Gb  openmv.o [1]
+barrier_y2              0x1fff'0832    0x2  Data  Gb  openmv.o [1]
+bcn_width               0x1fff'0808    0x2  Data  Gb  control.o [1]
+bcn_width2              0x1fff'080a    0x2  Data  Gb  control.o [1]
+bcn_x                   0x1fff'0800    0x2  Data  Gb  control.o [1]
+bcn_x2                  0x1fff'0804    0x2  Data  Gb  control.o [1]
+bcn_y                   0x1fff'0802    0x2  Data  Gb  control.o [1]
+bcn_y2                  0x1fff'0806    0x2  Data  Gb  control.o [1]
+beep_en                 0x1fff'084e    0x1  Data  Gb  beep.o [1]
+bus_clk_mhz             0x1fff'012c    0x4  Data  Gb  common.o [1]
+cal_d                   0x1fff'07d8    0x4  Data  Gb  PID.o [1]
+cal_down_speed          0x1fff'0172    0x2  Data  Gb  control.o [1]
+cal_i                   0x1fff'07d4    0x4  Data  Gb  PID.o [1]
+cal_p                   0x1fff'07d0    0x4  Data  Gb  PID.o [1]
+car_dir                 0x1fff'0850    0x1  Data  Gb  control.o [1]
+center_x                0x1fff'015a    0x2  Data  Gb  control.o [1]
+center_x2               0x1fff'015c    0x2  Data  Gb  control.o [1]
+cnt_derta_y             0x1fff'0134    0x4  Data  Gb  control.o [1]
+core_clk_mhz            0x1fff'0128    0x4  Data  Gb  common.o [1]
+crash_check_time        0x1fff'0174    0x2  Data  Gb  crash.o [1]
+crash_judge_y           0x1fff'019e    0x1  Data  Gb  crash.o [1]
+crash_key_en            0x1fff'0862    0x1  Data  Gb  crash.o [1]
+crashkey_state          0x1fff'0816    0x2  Data  Gb  crash.o [1]
+curve_minus             0x1fff'07c0    0x4  Data  Gb  control.o [1]
+curve_vx                0x1fff'0150    0x2  Data  Gb  control.o [1]
+curve_vy                0x1fff'0152    0x2  Data  Gb  control.o [1]
+curve_vy2               0x1fff'0156    0x2  Data  Gb  control.o [1]
+curve_vz                0x1fff'0154    0x2  Data  Gb  control.o [1]
+curve_vz2               0x1fff'0158    0x2  Data  Gb  control.o [1]
+cut_dir                 0x1fff'069c   0x20  Data  Gb  control.o [1]
+def_speed               0x1fff'014c    0x2  Data  Gb  control.o [1]
+div_set                      0xc58d   0x16  Code  Gb  system_MK66.o [1]
+down_speed              0x1fff'014e    0x2  Data  Gb  control.o [1]
+down_y                  0x1fff'016c    0x2  Data  Gb  control.o [1]
+down_y2                 0x1fff'016e    0x2  Data  Gb  control.o [1]
+exit                         0xc85b    0x4  Code  Gb  exit.o [2]
+filter_speed            0x1fff'07a0    0x4  Data  Gb  control.o [1]
+finish_s                0x1fff'0780    0x8  Data  Gb  main.o [1]
+first_curve_flag        0x1fff'019c    0x1  Data  Gb  control.o [1]
+first_light_pit         0x1fff'085f    0x1  Data  Gb  control.o [1]
+force_car_dir           0x1fff'0730   0x10  Data  Gb  control.o [1]
+force_dir               0x1fff'0851    0x1  Data  Gb  control.o [1]
+force_speed_down        0x1fff'0740   0x10  Data  Gb  control.o [1]
+force_turn_dir          0x1fff'0852    0x1  Data  Gb  control.o [1]
+ftm_pwm_duty                 0x6897   0x9e  Code  Gb  MK66_ftm.o [1]
+ftm_pwm_init                 0x66fd  0x19a  Code  Gb  MK66_ftm.o [1]
+ftm_quad_clean               0x6a31   0x10  Code  Gb  MK66_ftm.o [1]
+ftm_quad_get                 0x6a23    0xe  Code  Gb  MK66_ftm.o [1]
+ftm_quad_init                0x6935   0xee  Code  Gb  MK66_ftm.o [1]
+get_clk                      0xb1f5   0x64  Code  Gb  common.o [1]
+get_key_msg                  0x2f99   0x54  Code  Gb  key.o [1]
+gpio_ddr                     0x52e9   0x6c  Code  Gb  MK66_gpio.o [1]
+gpio_get                     0x5355   0x32  Code  Gb  MK66_gpio.o [1]
+gpio_init                    0x51b9  0x130  Code  Gb  MK66_gpio.o [1]
+gpio_set                     0x5387   0x6c  Code  Gb  MK66_gpio.o [1]
+gyro_flag               0x1fff'0892    0x1  Data  Gb  top6050.o [1]
+gyro_kalman_q           0x1fff'0192    0x2  Data  Gb  top6050.o [1]
+gyro_kalman_r           0x1fff'0194    0x2  Data  Gb  top6050.o [1]
+gyro_thd                0x1fff'016a    0x2  Data  Gb  control.o [1]
+gyro_x                  0x1fff'07dc    0x4  Data  Gb  top6050.o [1]
+gyro_x_offset           0x1fff'018c    0x2  Data  Gb  top6050.o [1]
+gyro_y                  0x1fff'07e0    0x4  Data  Gb  top6050.o [1]
+gyro_y_offset           0x1fff'018e    0x2  Data  Gb  top6050.o [1]
+gyro_z                  0x1fff'07e4    0x4  Data  Gb  top6050.o [1]
+gyro_z_offset           0x1fff'0190    0x2  Data  Gb  top6050.o [1]
+gyrox                   0x1fff'0846    0x2  Data  Gb  top6050.o [1]
+gyroy                   0x1fff'0848    0x2  Data  Gb  top6050.o [1]
+gyroz                   0x1fff'084a    0x2  Data  Gb  top6050.o [1]
+in_e3                   0x1fff'00ec   0x10  Data  Gb  fuzzy.o [1]
+in_omega                0x1fff'00fc   0x10  Data  Gb  fuzzy.o [1]
+inf_dir                 0x1fff'0858    0x1  Data  Gb  control.o [1]
+infra_cnt               0x1fff'085a    0x1  Data  Gb  control.o [1]
+interact_page           0x1fff'0869    0x1  Data  Gb  interact.o [1]
+interact_signal         0x1fff'0868    0x1  Data  Gb  interact.o [1]
+is_first_down           0x1fff'0860    0x1  Data  Gb  control.o [1]
+is_fuzzy                0x1fff'0196    0x1  Data  Gb  control.o [1]
+is_rush                 0x1fff'07fe    0x2  Data  Gb  control.o [1]
+is_time_start           0x1fff'087a    0x1  Data  Gb  main.o [1]
+key_IRQHandler               0x2fed   0xb0  Code  Gb  key.o [1]
+key_IRQHandler::keytime
+                        0x1fff'0774    0x8  Data  Lc  key.o [1]
+key_get                      0x2f2d   0x1c  Code  Gb  key.o [1]
+key_init                     0x2ed5   0x58  Code  Gb  key.o [1]
+key_msg                 0x1fff'05d4   0x28  Data  Gb  key.o [1]
+key_msg_flag            0x1fff'0879    0x1  Data  Gb  key.o [1]
+key_msg_front           0x1fff'0877    0x1  Data  Gb  key.o [1]
+key_msg_rear            0x1fff'0878    0x1  Data  Gb  key.o [1]
+l_cnt                   0x1fff'085b    0x1  Data  Gb  control.o [1]
+last_bcn_x              0x1fff'0834    0x2  Data  Gb  openmv.o [1]
+last_bcn_x2             0x1fff'0838    0x2  Data  Gb  openmv.o [1]
+last_bcn_y              0x1fff'0836    0x2  Data  Gb  openmv.o [1]
+last_bcn_y2             0x1fff'083a    0x2  Data  Gb  openmv.o [1]
+last_dirdir             0x1fff'019d    0x1  Data  Gb  control.o [1]
+light_count             0x1fff'0856    0x1  Data  Gb  control.o [1]
+light_index             0x1fff'0855    0x1  Data  Gb  control.o [1]
+light_pit_ms            0x1fff'0810    0x2  Data  Gb  control.o [1]
+light_pit_ms2           0x1fff'0812    0x2  Data  Gb  control.o [1]
+main                         0xad8f   0xac  Code  Gb  main.o [1]
+master_barrier          0x1fff'084c    0x1  Data  Gb  barrier.o [1]
+mcgout_clk_mhz          0x1fff'0124    0x4  Data  Gb  common.o [1]
+minus_error             0x1fff'07c4    0x4  Data  Gb  control.o [1]
+minus_l                 0x1fff'080c    0x2  Data  Gb  control.o [1]
+minus_r                 0x1fff'080e    0x2  Data  Gb  control.o [1]
+motor_kd                0x1fff'018a    0x2  Data  Gb  PID.o [1]
+motor_ki                0x1fff'0188    0x2  Data  Gb  PID.o [1]
+motor_kp                0x1fff'0186    0x2  Data  Gb  PID.o [1]
+must_dir                0x1fff'085d    0x1  Data  Gb  control.o [1]
+must_down               0x1fff'085e    0x1  Data  Gb  control.o [1]
+mv2_flag                0x1fff'0882    0x1  Data  Gb  openmv.o [1]
+mv_flag                 0x1fff'0883    0x1  Data  Gb  openmv.o [1]
+mv_width                0x1fff'0824    0x2  Data  Gb  openmv.o [1]
+mv_width2               0x1fff'082e    0x2  Data  Gb  openmv.o [1]
+mv_xx                   0x1fff'0820    0x2  Data  Gb  openmv.o [1]
+mv_xx2                  0x1fff'082a    0x2  Data  Gb  openmv.o [1]
+mv_yy                   0x1fff'0822    0x2  Data  Gb  openmv.o [1]
+mv_yy2                  0x1fff'082c    0x2  Data  Gb  openmv.o [1]
+mybit                        0x339d   0x28  Code  Gb  oled.o [1]
+mypow                        0x3385   0x18  Code  Gb  oled.o [1]
+now_dir                 0x1fff'019a    0x1  Data  Gb  control.o [1]
+offset_add              0x1fff'084f    0x1  Data  Gb  control.o [1]
+offset_center           0x1fff'0197    0x1  Data  Gb  control.o [1]
+openmv_buffer           0x1fff'0750    0xc  Data  Gb  openmv.o [1]
+openmv_buffer2          0x1fff'075c    0xc  Data  Gb  openmv.o [1]
+openmv_data_cnt         0x1fff'087c    0x1  Data  Gb  openmv.o [1]
+openmv_data_cnt2        0x1fff'087f    0x1  Data  Gb  openmv.o [1]
+openmv_head_cnt         0x1fff'087d    0x1  Data  Gb  openmv.o [1]
+openmv_head_cnt2        0x1fff'0880    0x1  Data  Gb  openmv.o [1]
+openmv_tail_cnt         0x1fff'087e    0x1  Data  Gb  openmv.o [1]
+openmv_tail_cnt2        0x1fff'0881    0x1  Data  Gb  openmv.o [1]
+out0_limit              0x1fff'0138    0x4  Data  Gb  PID.o [1]
+out1_limit              0x1fff'013c    0x4  Data  Gb  PID.o [1]
+out_d                   0x1fff'00c4   0x14  Data  Gb  fuzzy.o [1]
+p_rule                  0x1fff'0000   0xc4  Data  Gb  fuzzy.o [1]
+para_speed_down         0x1fff'0130    0x4  Data  Gb  control.o [1]
+parameter_en            0x1fff'086a    0x1  Data  Gb  interact.o [1]
+parameter_float         0x1fff'05a4   0x30  Data  Gb  flash.o [1]
+pd_y                    0x1fff'0162    0x2  Data  Gb  control.o [1]
+pd_y2                   0x1fff'0164    0x2  Data  Gb  control.o [1]
+period                  0x1fff'0788    0x8  Data  Gb  MK66_ftm.o [1]
+pid_curve               0x1fff'06dc   0x20  Data  Gb  PID.o [1]
+pid_motor_1             0x1fff'05fc   0x28  Data  Gb  PID.o [1]
+pid_motor_2             0x1fff'0624   0x28  Data  Gb  PID.o [1]
+pid_motor_3             0x1fff'064c   0x28  Data  Gb  PID.o [1]
+pid_motor_4             0x1fff'0674   0x28  Data  Gb  PID.o [1]
+pid_position            0x1fff'06bc   0x20  Data  Gb  PID.o [1]
+pid_z                   0x1fff'06fc   0x20  Data  Gb  PID.o [1]
+pit_back_dir            0x1fff'0876    0x1  Data  Gb  isr.o [1]
+pit_close                    0x9249   0x34  Code  Gb  MK66_pit.o [1]
+pit_finish_flag         0x1fff'019b    0x1  Data  Gb  control.o [1]
+pit_front_dir           0x1fff'0875    0x1  Data  Gb  isr.o [1]
+pit_init                     0x9131   0x5c  Code  Gb  MK66_pit.o [1]
+pit_time_get                 0x91e9   0x60  Code  Gb  MK66_pit.o [1]
+pit_time_start               0x918d   0x5c  Code  Gb  MK66_pit.o [1]
+port_init                    0x5401   0x7a  Code  Gb  MK66_port.o [1]
+port_init_NoAlt              0x547b   0x5c  Code  Gb  MK66_port.o [1]
+position_cd             0x1fff'083c    0x2  Data  Gb  PID.o [1]
+position_ci             0x1fff'0178    0x2  Data  Gb  PID.o [1]
+position_cp             0x1fff'0176    0x2  Data  Gb  PID.o [1]
+position_zd0            0x1fff'0180    0x2  Data  Gb  PID.o [1]
+position_zi0            0x1fff'017e    0x2  Data  Gb  PID.o [1]
+position_zp0            0x1fff'017a    0x2  Data  Gb  PID.o [1]
+position_zp1            0x1fff'017c    0x2  Data  Gb  PID.o [1]
+protect_cnt1            0x1fff'081c    0x2  Data  Gb  main.o [1]
+protect_cnt2            0x1fff'081e    0x2  Data  Gb  main.o [1]
+pvfb                    0x1fff'0168    0x2  Data  Gb  control.o [1]
+pvlr0                   0x1fff'0184    0x2  Data  Gb  PID.o [1]
+pvlr1                   0x1fff'0182    0x2  Data  Gb  PID.o [1]
+pwm_buchang             0x1fff'07a4    0x4  Data  Gb  control.o [1]
+r_cnt                   0x1fff'085c    0x1  Data  Gb  control.o [1]
+red1                    0x1fff'0886    0x1  Data  Gb  pan_infrared.o [1]
+red10                   0x1fff'088f    0x1  Data  Gb  pan_infrared.o [1]
+red11                   0x1fff'0890    0x1  Data  Gb  pan_infrared.o [1]
+red12                   0x1fff'0891    0x1  Data  Gb  pan_infrared.o [1]
+red2                    0x1fff'0887    0x1  Data  Gb  pan_infrared.o [1]
+red3                    0x1fff'0888    0x1  Data  Gb  pan_infrared.o [1]
+red4                    0x1fff'0889    0x1  Data  Gb  pan_infrared.o [1]
+red5                    0x1fff'088a    0x1  Data  Gb  pan_infrared.o [1]
+red6                    0x1fff'088b    0x1  Data  Gb  pan_infrared.o [1]
+red7                    0x1fff'088c    0x1  Data  Gb  pan_infrared.o [1]
+red8                    0x1fff'088d    0x1  Data  Gb  pan_infrared.o [1]
+red9                    0x1fff'088e    0x1  Data  Gb  pan_infrared.o [1]
+red_buffer              0x1fff'0768    0xc  Data  Gb  pan_infrared.o [1]
+runtime                 0x1fff'07c8    0x4  Data  Gb  main.o [1]
+s_flash_command_run     0x1fff'010c   0x10  Data  Gb  MK66_flash.o [1]
+s_flash_run_entry       0x1fff'07cc    0x4  Data  Gb  MK66_flash.o [1]
+send_en                 0x1fff'0854    0x1  Data  Gb  control.o [1]
+send_key_msg                 0x2f49   0x50  Code  Gb  key.o [1]
+set_x                   0x1fff'07bc    0x4  Data  Gb  control.o [1]
+show_en                 0x1fff'086b    0x1  Data  Gb  interact.o [1]
+slave_barrier           0x1fff'084d    0x1  Data  Gb  barrier.o [1]
+start_sw                0x1fff'0853    0x1  Data  Gb  control.o [1]
+systick_delay                0x54e5   0x20  Code  Gb  MK66_systick.o [1]
+systick_delay_ms             0x5505   0x1e  Code  Gb  MK66_systick.o [1]
+systick_delay_us             0x5523   0x18  Code  Gb  MK66_systick.o [1]
+turn_dir                0x1fff'0857    0x1  Data  Gb  control.o [1]
+turn_judge              0x1fff'0859    0x1  Data  Gb  control.o [1]
+uart                    0x1fff'00d8   0x14  Data  Gb  MK66_uart.o [1]
+uart_getchar                 0xacff   0x1e  Code  Gb  MK66_uart.o [1]
+uart_init                    0xaaf1  0x1f2  Code  Gb  MK66_uart.o [1]
+uart_putchar                 0xace3   0x1c  Code  Gb  MK66_uart.o [1]
+uart_rx_irq_en               0xad1d   0x3e  Code  Gb  MK66_uart.o [1]
+up_speed                0x1fff'014a    0x2  Data  Gb  control.o [1]
+up_y                    0x1fff'015e    0x2  Data  Gb  control.o [1]
+up_y2                   0x1fff'0160    0x2  Data  Gb  control.o [1]
+value1                  0x1fff'083e    0x2  Data  Gb  PID.o [1]
+value2                  0x1fff'0840    0x2  Data  Gb  PID.o [1]
+value3                  0x1fff'0842    0x2  Data  Gb  PID.o [1]
+value4                  0x1fff'0844    0x2  Data  Gb  PID.o [1]
+vx                      0x1fff'07b0    0x4  Data  Gb  control.o [1]
+vy                      0x1fff'07b4    0x4  Data  Gb  control.o [1]
+vy_pit                  0x1fff'0814    0x2  Data  Gb  control.o [1]
+vz                      0x1fff'07b8    0x4  Data  Gb  control.o [1]
+wheel                   0x1fff'071c   0x14  Data  Gb  control.o [1]
+x_buchang_l             0x1fff'07a8    0x4  Data  Gb  control.o [1]
+x_buchang_r             0x1fff'07ac    0x4  Data  Gb  control.o [1]
+yan                     0x1fff'087b    0x1  Data  Gb  main.o [1]
+
+
+[1] = C:\Users\Mr.Wang\Desktop\bcn_MAS强减速\Projecct\IAR\program\MK66FX_Debug\Obj
+[2] = dl7M_tlf.a
+[3] = m7M_tls.a
+[4] = rt7M_tl.a
+[5] = shb_l.a
+
+  45 380 bytes of readonly  code memory
+   7 524 bytes of readonly  data memory
+  10 385 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
